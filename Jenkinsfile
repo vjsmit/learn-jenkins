@@ -36,7 +36,7 @@ pipeline {
                echo 'Deploying'
            }
        }
-
+    }
     post {
         always {
             sh 'echo post'
