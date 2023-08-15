@@ -9,6 +9,11 @@ pipeline {
     options {
         ansiColor('xterm')
     }
+
+    parameters {
+            string(name: 'APP_INPUT', defaultValue: 'enter app_input', description: 'Just Input')
+       }
+
     stages {
         stage('Hello-1') {
             steps {
