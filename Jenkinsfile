@@ -35,6 +35,8 @@ pipeline {
            steps {
                echo 'Deploying'
            }
+       }
+
     post {
         always {
             sh 'echo post'
