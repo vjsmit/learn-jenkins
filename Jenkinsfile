@@ -8,8 +8,9 @@ pipeline {
                 echo 'Hello World'
             }
         }
+      }
     post {
-        always
+        always {
             sh 'echo post'
         }
     }
